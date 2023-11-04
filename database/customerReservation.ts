@@ -1,4 +1,4 @@
-export const reservation = [
+export const customerReservation = [
     {
         id:0,
         icon:'ok',

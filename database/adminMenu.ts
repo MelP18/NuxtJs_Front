@@ -2,13 +2,25 @@ export const menuTop = [
     {
         icon: "fa-solid fa-user",
         title:'Tableau de bord',
-        router:'/',
+        router:'/admin/adminInterface/dashboard',
         isActive:true
+    },
+    {
+        icon: "fa-regular fa-envelope-open",
+        title:'Projets',
+        router:'',
+        isActive:false
+    },
+    {
+        icon: "fa-solid fa-layer-group",
+        title:'Rapport',
+        router:'',
+        isActive:false
     },
     {
         icon: "fa-solid fa-user",
         title:'Documents',
-        router:'/customer/customerInterface/customer-documents',
+        router:'/admin/adminInterface/document',
         isActive:false
     },
     {
@@ -22,11 +34,10 @@ export const menuTop = [
         title:'Paiement',
         router:'',
         isActive:false
-    },
-    {
-        icon: "fa-solid fa-phone",
-        title:'Suivi Notaire',
-        router:'/notaryFollowUp/notary-follow-up',
+    },{
+        icon: "fa-solid fa-user",
+        title:'Clients',
+        router:'',
         isActive:false
     },
     {

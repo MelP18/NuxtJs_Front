@@ -1,4 +1,4 @@
-export type  Document = {
+export type  CustomerDocument = {
     id:0,
     type:'String',
     name:'String',
