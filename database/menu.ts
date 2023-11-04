@@ -26,7 +26,7 @@ export const menuTop = [
     {
         icon: "fa-solid fa-phone",
         title:'Suivi Notaire',
-        router:'/contact',
+        router:'/notaryFollowUp/notary-follow-up',
         isActive:false
     },
     {
@@ -41,13 +41,13 @@ export const menuBottom = [
     {
         icon: "fa-solid fa-gear",
         title:'Paramètres',
-        router:'/setting',
+        router:'',
         isActive:false
     },
     {
         icon: "fa-solid fa-right-from-bracket",
         title:'Déconnexion',
-        router:'/logout',
+        router:'',
         isActive:false
     }
   
