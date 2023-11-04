@@ -1,10 +1,12 @@
 <template>
-    <notaryFollowUp/>
+    <div>
+      <adminAdminAuthSignin/> 
+    </div>
+  
 </template>
-
 
 <script lang="ts" setup>
 definePageMeta({
-  layout:'customer-interface'
+  layout:'admin-auth'
 })
 </script>

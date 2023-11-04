@@ -19,7 +19,7 @@
                         Rendez-vous</NuxtLink>
                 </div>
                 <div>
-                    <div v-for="item in reservation" class="flex gap-5">
+                    <div v-for="item in customerReservation" class="flex gap-5">
                         <div class="flex flex-col items-center">
                             <div class="w-12 h-12 bg-gray-200 rounded-full flex items-center justify-center">
                                 <i>{{ item.icon }}</i>
@@ -40,7 +40,7 @@
 
 <script lang="ts" setup>
 import { ref } from 'vue'
-import { reservation } from '../../database/reservation'
+import { customerReservation } from '../../../database/customerReservation'
 </script>
 
   

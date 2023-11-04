@@ -1,4 +1,4 @@
-export const document = [
+export const customerDocument = [
     {
         id:0,
         type:'fa-solid fa-file-pdf',

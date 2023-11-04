@@ -20,7 +20,7 @@
                     <th class="py-2.5  px-5 text-left font-normal">Date</th>
                     <th class="py-2.5  px-5 text-left w-1/6 font-normal">Action</th>
                 </thead>
-                <tbody v-for="element in document">
+                <tbody v-for="element in customerDocument">
                     <tr class="border-y border-gray-300">
                         <td class="py-1.5  px-5">
                             <i :class=element.type></i>
@@ -49,11 +49,11 @@
 
 <script lang="ts" setup>
 import { ref } from 'vue'
-import { document } from '../../../database/document'
-import type {Document} from '../../../Types/document'
+import { customerDocument } from '../../../database/customerDocument'
+import type {CustomerDocument} from '../../../Types/document'
 
 const activeAction = ref(null)
-const openAction = (element:Document | any) =>{
+const openAction = (element:CustomerDocument | any) =>{
   activeAction.value = element
 }
 const closeAction = (event)  =>{
